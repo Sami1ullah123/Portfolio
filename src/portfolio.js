@@ -238,7 +238,7 @@ const bigProjects = {
     {
       image: require("./assets/images/mobile-app.png"),
       projectName: "WSL Remit",
-      projectDesc: "Online International Payment transfer platform",
+      projectDesc: "Online International Payment transfer platform where users can send and recieve funds to the bank account of any country.",
       footerLink: [
         {
           name: "Visit App",
@@ -249,14 +249,47 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/streetztalk.webp"),
-      projectName: "SyteetzTalk",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "SteetzTalk",
+      projectDesc: "A Social Media Platform Same like threads with extra feature of allowing its user to find out what is the trending and what's new in their 1 km radius",
       footerLink: [
         {
           name: "Visit App",
           url: "https://play.google.com/store/apps/details?id=com.nbstreetztalk&pcampaignid=web_share"
         }
       ]
+    },
+    {
+      image: require("./assets/images/Jadwali-Logo.png"),
+      projectName: "Jadwali",
+      projectDesc: "An Online appoinment booking platform where user can create their own events and the invitees can schedule events with the link provided to them",
+      
+    },
+    {
+      image: require("./assets/images/two-of-hearts.png"),
+      projectName: "Flirtwaves",
+      projectDesc: "A Dating application similar to Happns which allow their users to find out thier perfect matches based upon thier profile using AI",
+      
+    },
+    {
+      image: require("./assets/images/onboardlogo.png"),
+      projectName: "Fate",
+      projectDesc: "A Dating application similar to Tinder which allow their users to find out thier perfect matches based upon thier profile using AI ",
+      
+    },
+    {
+      image: require("./assets/images/watch.png"),
+      projectName: "WatchaGotcha",
+      projectDesc: "A Platform to watch and upload reels like tiktok, e-commerce application allows user to buy and sell products using this platform",
+    },
+    {
+      image: require("./assets/images/ride-share.png"),
+      projectName: "Ride Share",
+      projectDesc: "Ride Share is a platform where users can book thier rides like Uber, Careem taxi service ",
+    },
+    {
+      image: require("./assets/images/jet.png"),
+      projectName: "Jet Hunter",
+      projectDesc: "Jet Hunter is a platform where users can buy or rent the Jets online using this application",
     }
   ],
   display: true // Set false to hide this section, defaults to true

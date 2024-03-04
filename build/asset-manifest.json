@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3cf13eba.css",
+    "main.js": "/static/js/main.7c28b523.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/static/js/990.567a0b93.chunk.js",
+    "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/ride-share.png": "/static/media/ride-share.d0755a63e3f36a49fe8a.png",
+    "static/media/codek.png": "/static/media/codek.9af24df03e10b5c05790.png",
+    "static/media/watch.png": "/static/media/watch.4bb45be44a3581d73b1c.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/two-of-hearts.png": "/static/media/two-of-hearts.77881e7fbec46d3e5921.png",
+    "static/media/jet.png": "/static/media/jet.933bc467ef4e292df334.png",
+    "static/media/University_of_Gujrat_Logo.png": "/static/media/University_of_Gujrat_Logo.86f5d56042cdf7ab627b.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/streetztalk.webp": "/static/media/streetztalk.cbb452123cc86d8f6179.webp",
+    "static/media/mobile-app.png": "/static/media/mobile-app.f6759c4a313b74a6c566.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/onboardlogo.png": "/static/media/onboardlogo.c109fe8160de286baef8.png",
+    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/Jadwali-Logo.png": "/static/media/Jadwali-Logo.d9e7ce61fc024ca8618e.png",
+    "static/media/develoitsolutions_logo.png": "/static/media/develoitsolutions_logo.7c6af5b02d9b681a8442.png",
+    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
+    "main.7c28b523.js.map": "/static/js/main.7c28b523.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/static/js/990.567a0b93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cf13eba.css",
+    "static/js/main.7c28b523.js"
+  ]
+}

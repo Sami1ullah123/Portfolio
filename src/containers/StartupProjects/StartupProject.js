@@ -18,7 +18,7 @@ export default function StartupProject() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={100} distance="20px">
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -75,6 +75,7 @@ export default function StartupProject() {
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
                               onClick={() => openUrlInNewTab(link.url)}
+                              Link
                             >
                               {link.name}
                             </span>
