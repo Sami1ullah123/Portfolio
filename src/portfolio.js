@@ -10,24 +10,24 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Sami Ullah",
   title: "Hi all, I'm Sami",
   subTitle: emoji(
-    "A passionate Mobile App Developer 🚀 having an experience of building Mobile applications with JavaScript/ TypeScript / React Native and some other cool libraries and frameworks."
+    "A passionate Mobile App Developer 🚀 having an experience of building cross platform Mobile applications with JavaScript/ TypeScript / React Native and some other cool libraries and frameworks.",
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hW8VPLkqb_f-7osz1BPG8woKHHPrzmPU/view?usp=drive_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1dD0tPXZSxUm5IRHmz6RB8u3vD8QegHhw/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -42,7 +42,7 @@ const socialMediaLinks = {
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY MOBILE APP DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your mobile applications",
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,39 +65,39 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
-   
+
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "React native",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-fire",
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -111,7 +111,6 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "September 2018 - Aug 2023",
       desc: "Developed mobile application using react native for automatimg to-let boards system ",
-     
     },
     {
       schoolName: "Leads Group Of Colloges",
@@ -119,8 +118,8 @@ const educationInfo = {
       subHeader: "Intermediate in Computer Science",
       duration: "September 2016 - April 2018",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    }
-  ]
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -130,31 +129,30 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Third Party Integration", 
-      progressPercentage: "90%"
+      Stack: "Third Party Integration",
+      progressPercentage: "90%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "80%",
     },
     {
       Stack: "Api-Integration",
-      progressPercentage: "90%"
+      progressPercentage: "90%",
     },
     {
       Stack: "JavaScript",
-      progressPercentage: "80%"
+      progressPercentage: "80%",
     },
     {
       Stack: "Typescript",
-      progressPercentage: "80%"
+      progressPercentage: "80%",
     },
-
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -164,9 +162,9 @@ const workExperiences = {
   experience: [
     {
       role: "React Native Developer",
-      company: "Develo It Solutions",
-      companylogo: require("./assets/images/develoitsolutions_logo.png"),
-      date: "March-1 – present",
+      company: "Pixl Develop",
+      companylogo: require("./assets/images/Pixllove-Logo.png"),
+      date: "August 2024 – present",
       desc: "My role was there to develop mobile applications for React Native, maintaining the react native application. Design pixel perfect and smooth UX for users interacting with React Native, Having Skills in the following and much more",
       descBullets: [
         "React Native",
@@ -178,7 +176,29 @@ const workExperiences = {
         "Web-sockets",
         "Aws",
         "Live streaming",
-      ]
+        "In-App Purchases",
+        "Web-rtc",
+        "Admob",
+        "Deployment",
+      ],
+    },
+    {
+      role: "React Native Developer",
+      company: "Develo It Solutions",
+      companylogo: require("./assets/images/develoitsolutions_logo.png"),
+      date: "March 2024 – August 2024",
+      desc: "My role was there to develop mobile applications for React Native, maintaining the react native application. Design pixel perfect and smooth UX for users interacting with React Native, Having Skills in the following and much more",
+      descBullets: [
+        "React Native",
+        "Native base",
+        "Firebase",
+        "Redux",
+        "Redux-toolkit",
+        "Auido-Video Calling",
+        "Web-sockets",
+        "Aws",
+        "Live streaming",
+      ],
     },
     {
       role: "React Native Developer",
@@ -196,7 +216,7 @@ const workExperiences = {
         "Web-sockets",
         "Aws",
         "Live streaming",
-      ]
+      ],
     },
     {
       role: "React Native Developer",
@@ -214,11 +234,9 @@ const workExperiences = {
         "Web-sockets",
         "Aws",
         "Live streaming",
-      ]
+      ],
     },
-  
- 
-  ]
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -226,7 +244,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -236,63 +254,79 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/pixllove-profile.png"),
+      projectName: "Pixllove",
+      projectDesc:
+        "A Dating Application to connect people all over the world and find your date with live chat or video chat with 50k+ downloads",
+      footerLink: [
+        {
+          name: "Visit App",
+          url: "https://play.google.com/store/apps/details?id=com.pixllove.datingmobileapp",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
       image: require("./assets/images/mobile-app.png"),
       projectName: "WSL Remit",
-      projectDesc: "Online International Payment transfer platform where users can send and recieve funds to the bank account of any country.",
+      projectDesc:
+        "Online International Payment transfer platform where users can send and recieve funds to the bank account of any country.",
       footerLink: [
         {
           name: "Visit App",
           url: "https://play.google.com/store/apps/details?id=com.wslremit&pcampaignid=web_share",
-        }
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
       image: require("./assets/images/streetztalk.webp"),
       projectName: "SteetzTalk",
-      projectDesc: "A Social Media Platform Same like threads with extra feature of allowing its user to find out what is the trending and what's new in their 1 km radius",
+      projectDesc:
+        "A Social Media Platform Same like threads with extra feature of allowing its user to find out what is the trending and what's new in their 1 km radius",
       footerLink: [
         {
           name: "Visit App",
-          url: "https://play.google.com/store/apps/details?id=com.nbstreetztalk&pcampaignid=web_share"
-        }
-      ]
+          url: "https://play.google.com/store/apps/details?id=com.nbstreetztalk&pcampaignid=web_share",
+        },
+      ],
     },
     {
       image: require("./assets/images/Jadwali-Logo.png"),
       projectName: "Jadwali",
-      projectDesc: "An Online appoinment booking platform where user can create their own events and the invitees can schedule events with the link provided to them",
-      
+      projectDesc:
+        "An Online appoinment booking platform where user can create their own events and the invitees can schedule events with the link provided to them",
     },
-    {
-      image: require("./assets/images/two-of-hearts.png"),
-      projectName: "Flirtwaves",
-      projectDesc: "A Dating application similar to Happns which allow their users to find out thier perfect matches based upon thier profile using AI",
-      
-    },
-    {
-      image: require("./assets/images/onboardlogo.png"),
-      projectName: "Fate",
-      projectDesc: "A Dating application similar to Tinder which allow their users to find out thier perfect matches based upon thier profile using AI ",
-      
-    },
-    {
-      image: require("./assets/images/watch.png"),
-      projectName: "WatchaGotcha",
-      projectDesc: "A Platform to watch and upload reels like tiktok, e-commerce application allows user to buy and sell products using this platform",
-    },
-    {
-      image: require("./assets/images/ride-share.png"),
-      projectName: "Ride Share",
-      projectDesc: "Ride Share is a platform where users can book thier rides like Uber, Careem taxi service ",
-    },
+    // {
+    //   image: require("./assets/images/two-of-hearts.png"),
+    //   projectName: "Flirtwaves",
+    //   projectDesc: "A Dating application similar to Happns which allow their users to find out thier perfect matches based upon thier profile using AI",
+
+    // },
+    // {
+    //   image: require("./assets/images/onboardlogo.png"),
+    //   projectName: "Fate",
+    //   projectDesc: "A Dating application similar to Tinder which allow their users to find out thier perfect matches based upon thier profile using AI ",
+
+    // },
+    // {
+    //   image: require("./assets/images/watch.png"),
+    //   projectName: "WatchaGotcha",
+    //   projectDesc: "A Platform to watch and upload reels like tiktok, e-commerce application allows user to buy and sell products using this platform",
+    // },
+    // {
+    //   image: require("./assets/images/ride-share.png"),
+    //   projectName: "Ride Share",
+    //   projectDesc: "Ride Share is a platform where users can book thier rides like Uber, Careem taxi service ",
+    // },
     {
       image: require("./assets/images/jet.png"),
       projectName: "Jet Hunter",
-      projectDesc: "Jet Hunter is a platform where users can buy or rent the Jets online using this application",
-    }
+      projectDesc:
+        "Jet Hunter is a platform where users can buy or rent the Jets online using this application",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -313,17 +347,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -334,9 +368,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+        },
+      ],
     },
 
     {
@@ -345,15 +379,15 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+          url: "https://pakistan-olx-1.firebaseapp.com/",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -368,16 +402,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -385,7 +419,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
   ),
 
   talks: [
@@ -393,10 +427,10 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -407,9 +441,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -417,14 +451,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3060102353",
-  email_address: "mr.samiullah002@gmail.com"
+  email_address: "mr.samiullah002@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -446,5 +480,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
 };
