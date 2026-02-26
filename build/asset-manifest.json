@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.dbb9f43c.css",
-    "main.js": "/static/js/main.23a28f49.js",
+    "main.js": "/static/js/main.4f85f248.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "/static/js/990.567a0b93.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/pixllove-profile.png": "/static/media/pixllove-profile.89e0264f877a862c5359.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/codek.png": "/static/media/codek.9af24df03e10b5c05790.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -14,6 +15,7 @@
     "static/media/University_of_Gujrat_Logo.png": "/static/media/University_of_Gujrat_Logo.86f5d56042cdf7ab627b.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/streetztalk.webp": "/static/media/streetztalk.cbb452123cc86d8f6179.webp",
+    "static/media/Pixllove-Logo.png": "/static/media/Pixllove-Logo.51a326435d6a59aa3648.png",
     "static/media/mobile-app.png": "/static/media/mobile-app.f6759c4a313b74a6c566.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -26,7 +28,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.dbb9f43c.css.map": "/static/css/main.dbb9f43c.css.map",
-    "main.23a28f49.js.map": "/static/js/main.23a28f49.js.map",
+    "main.4f85f248.js.map": "/static/js/main.4f85f248.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -34,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.dbb9f43c.css",
-    "static/js/main.23a28f49.js"
+    "static/js/main.4f85f248.js"
   ]
 }
